@@ -1,0 +1,188 @@
+{
+  "info": {
+    "_postman_id": "a7e7d984-2432-4a17-b0ea-c4a85a79b342",
+    "name": "research portal",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58727211",
+    "_collection_link": "https://go.postman.co/collection/58727211-a7e7d984-2432-4a17-b0ea-c4a85a79b342?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "get post request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get post request Copy",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "delete reuquest",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"title\": \"Cyber Security Awareness Study\",\r\n  \"description\": \"Survey students about phishing attacks\",\r\n  \"research_area\": \"Cyber Security\",\r\n  \"faculty_name\": \"Dr. Ali\",\r\n  \"department\": \"Computer Science\",\r\n  \"required_skills\": \"Networking, Data Analysis\",\r\n  \"positions\": 4,\r\n  \"deadline\": \"2026-12-15\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://probable-fishstick-69qvjrvwrjqqf56pg-3000.app.github.dev/api/opportunities/5",
+          "protocol": "https",
+          "host": [
+            "probable-fishstick-69qvjrvwrjqqf56pg-3000",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "api",
+            "opportunities",
+            "5"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get deleted opportunity",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get one",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create with invalid data",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST reuest",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST reuest Copy 2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"title\": \"Cyber Security Awareness Study\",\r\n  \"description\": \"Survey students about phishing attacks\",\r\n  \"research_area\": \"Cyber Security\",\r\n  \"faculty_name\": \"Dr. Ali\",\r\n  \"department\": \"Computer Science\",\r\n  \"required_skills\": \"Networking, Data Analysis\",\r\n  \"positions\": 4,\r\n  \"deadline\": \"2026-12-15\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://probable-fishstick-69qvjrvwrjqqf56pg-3000.app.github.dev/api/opportunities",
+          "protocol": "https",
+          "host": [
+            "probable-fishstick-69qvjrvwrjqqf56pg-3000",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "api",
+            "opportunities"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST reuest Copy",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"title\": \"Smart Campus IoT System\",\r\n  \"description\": \"Design sensors for energy monitoring\",\r\n  \"research_area\": \"Internet of Things\",\r\n  \"faculty_name\": \"Dr. Sara\",\r\n  \"department\": \"Electrical Engineering\",\r\n  \"required_skills\": \"Arduino, C++\",\r\n  \"positions\": 2,\r\n  \"deadline\": \"2026-11-30\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://probable-fishstick-69qvjrvwrjqqf56pg-3000.app.github.dev/api/opportunities",
+          "protocol": "https",
+          "host": [
+            "probable-fishstick-69qvjrvwrjqqf56pg-3000",
+            "app",
+            "github",
+            "dev"
+          ],
+          "path": [
+            "api",
+            "opportunities"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://probable-fishstick-69qvjrvwrjqqf56pg-3000.app.github.dev/"
+    }
+  ]
+}
